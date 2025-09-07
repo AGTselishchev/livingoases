@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta content="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Живые оазисы - Флорариумы ручной работы</title>
-    <meta name="description" content="Создаем уникальные флорариумы и живые оазисы в стекле. Идеальный подарок и элемент декора для вашего дома или офиса.">
+    <title>Купить флорариум в Москве | Живые оазисы - доставка под Яндекс</title>
+    <meta name="description" content="Купить флорариум в Москве с доставкой под Яндекс. Создаем уникальные флорариумы ручной работы - идеальный подарок и элемент декора для вашего дома или офиса.">
+    <meta name="keywords" content="флорариум, купить флорариум, флорариум москва, доставка флорариумов, доставка под яндекс, живые оазисы">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/main.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Живые оазисы",
+      "url": "https://living-oases.ru",
+      "logo": "img/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+7 (495) 123-45-67",
+        "contactType": "customer service"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Цветочная, 15",
+        "addressLocality": "Химки",
+        "addressRegion": "Московская обл.",
+        "postalCode": "141400",
+        "addressCountry": "RU"
+      }
+    }
+    </script>
 </head>
 <body>
 
@@ -18,8 +41,8 @@
                 <img src="img/logo.png" alt="Логотип Живые оазисы">
             </a>
             <ul class="nav-links">
-                <li><a href="#about">О нас</a></li>
                 <li><a href="#products">Каталог</a></li>
+                <li><a href="#about">О нас</a></li>
                 <li><a href="#contact">Контакты</a></li>
             </ul>
         </nav>
@@ -35,66 +58,89 @@
             </div>
         </section>
 
-        <!-- Раздел "О нас" -->
-        <section id="about" class="content-section">
-            <h2>Наша история</h2>
-            <p>«Живые оазисы» — это не просто магазин, это наша страсть. Все началось с маленького хобби и любви к растениям. Мы хотели создать что-то, что позволило бы каждому, даже жителю мегаполиса, иметь свой собственный уголок природы. Каждый флорариум собирается вручную с особым вниманием к деталям, чтобы стать уникальным произведением искусства и приносить вам радость долгие годы.</p>
-        </section>
+
 
         <!-- Раздел "Товары" -->
         <section id="products" class="content-section">
             <h2>Наши флорариумы</h2>
             <div class="product-grid">
-                <div class="product-card">
-                    <img src="img/florarium1.jpg" alt="Флорариум Лесная сказка">
+                <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img src="img/florarium1.jpg" alt="Флорариум Лесная сказка" itemprop="image">
                     <div class="card-content">
-                        <h3>Лесная сказка</h3>
-                        <p>Классическая композиция с мхом, папоротником и декоративными камнями.</p>
-                        <span class="price">3 500 ₽</span>
+                        <h3 itemprop="name">Лесная сказка</h3>
+                        <p itemprop="description">Классическая композиция с мхом, папоротником и декоративными камнями.</p>
+                        <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">3 500 ₽<meta itemprop="price" content="3500" /><meta itemprop="priceCurrency" content="RUB" /></span>
                     </div>
                 </div>
-                <div class="product-card">
-                    <img src="img/florarium2.jpg" alt="Флорариум Пустынный мираж">
+                <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img src="img/florarium2.jpg" alt="Флорариум Пустынный мираж - купить в Москве" itemprop="image">
                     <div class="card-content">
-                        <h3>Пустынный мираж</h3>
-                        <p>Композиция из суккулентов и кактусов в песочных тонах.</p>
-                        <span class="price">4 200 ₽</span>
+                        <h3 itemprop="name">Пустынный мираж</h3>
+                        <p itemprop="description">Композиция из суккулентов и кактусов в песочных тонах.</p>
+                        <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">4 200 ₽<meta itemprop="price" content="4200" /><meta itemprop="priceCurrency" content="RUB" /></span>
                     </div>
                 </div>
-                <div class="product-card">
-                    <img src="img/florarium3.jpg" alt="Флорариум Горный ручей">
+                <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img src="img/florarium3.jpg" alt="Флорариум Горный ручей - доставка по Москве" itemprop="image">
                     <div class="card-content">
-                        <h3>Горный ручей</h3>
-                        <p>Имитация горного ландшафта с фиттонией и мелкими камнями.</p>
-                        <span class="price">4 000 ₽</span>
+                        <h3 itemprop="name">Горный ручей</h3>
+                        <p itemprop="description">Имитация горного ландшафта с фиттонией и мелкими камнями.</p>
+                        <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">4 000 ₽<meta itemprop="price" content="4000" /><meta itemprop="priceCurrency" content="RUB" /></span>
                     </div>
                 </div>
-                <div class="product-card">
-                    <img src="img/florarium4.jpg" alt="Флорариум Тропический рай">
+                <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img src="img/florarium4.jpg" alt="Тропический флорариум в стекле, Москва" itemprop="image">
                     <div class="card-content">
-                        <h3>Тропический рай</h3>
-                        <p>Яркие тропические растения в высокой стеклянной форме.</p>
-                        <span class="price">5 100 ₽</span>
+                        <h3 itemprop="name">Тропический рай</h3>
+                        <p itemprop="description">Яркие тропические растения в высокой стеклянной форме.</p>
+                        <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">5 100 ₽<meta itemprop="price" content="5100" /><meta itemprop="priceCurrency" content="RUB" /></span>
                     </div>
                 </div>
-                <div class="product-card">
-                    <img src="img/florarium5.jpg" alt="Флорариум Таинственный грот">
+                <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img src="img/florarium5.jpg" alt="Флорариум Таинственный грот - заказать в Москве" itemprop="image">
                     <div class="card-content">
-                        <h3>Таинственный грот</h3>
-                        <p>Геометрическая форма с подсветкой и редкими видами мха.</p>
-                        <span class="price">6 300 ₽</span>
+                        <h3 itemprop="name">Таинственный грот</h3>
+                        <p itemprop="description">Геометрическая форма с подсветкой и редкими видами мха.</p>
+                        <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">6 300 ₽<meta itemprop="price" content="6300" /><meta itemprop="priceCurrency" content="RUB" /></span>
                     </div>
                 </div>
-                <div class="product-card">
-                    <img src="img/florarium6.jpg" alt="Флорариум Солнечная поляна">
+                <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img src="img/florarium6.jpg" alt="Флорариум Солнечная поляна - купить с доставкой по Москве" itemprop="image">
                     <div class="card-content">
-                        <h3>Солнечная поляна</h3>
-                        <p>Открытая композиция, наполненная светом и позитивом.</p>
-                        <span class="price">3 800 ₽</span>
+                        <h3 itemprop="name">Солнечная поляна</h3>
+                        <p itemprop="description">Открытая композиция, наполненная светом и позитивом.</p>
+                        <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">3 800 ₽<meta itemprop="price" content="3800" /><meta itemprop="priceCurrency" content="RUB" /></span>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <!-- Раздел "О нас" -->
+        <section id="about" class="content-section">
+            <h2>Наша история</h2>
+            <p>«Живые оазисы» — это не просто магазин, это наша страсть. Все началось с маленького хобби и любви к растениям. Мы хотели создать что-то, что позволило бы каждому, даже жителю мегаполиса, иметь свой собственный уголок природы. Каждый флорариум собирается вручную с особым вниманием к деталям, чтобы стать уникальным произведением искусства и приносить вам радость долгие годы.</p>
+            
+            <!-- Фотогалерея -->
+            <!-- Фотогалерея -->
+            <div class="photo-gallery">
+                <div class="gallery-row">
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_01.png" alt="Флорариум Лесная сказка в Москве"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_02.png" alt="Флорариум Пустынный мираж - купить в Москве"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_03.png" alt="Флорариум Горный ручей - доставка по Москве"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_04.png" alt="Тропический флорариум в стекле, Москва"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_05.png" alt="Флорариум Таинственный грот - заказать в Москве"></div>
+                </div>
+                <div class="gallery-row">
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_06.png" alt="Флорариум Солнечная поляна - купить с доставкой по Москве"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_07.png" alt="Флорариум для дома и офиса, Москва"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_08.png" alt="Флорариум ручной работы, Москва"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_09.png" alt="Флорариум с суккулентами, Москва"></div>
+                    <div class="gallery-item"><img src="photo_gallery/generated-image_10.png" alt="Флорариум в подарок, Москва"></div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Раздел "Контакты" -->
         <section id="contact" class="contact-section">

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /photo_gallery/
+
+Sitemap: https://www.living-oases.ru/sitemap.xml
